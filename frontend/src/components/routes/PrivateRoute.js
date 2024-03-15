@@ -14,7 +14,7 @@ const PrivateRoute = ({ children }) => {
     try {
       dispatch(showLoading());
       const { data } = await axios.post(
-        "/api/v1/user/getUser",
+        "https://job-portal-5gk4.onrender.com/api/v1/user/getUser",
         { token: localStorage.getItem("token") },
         {
           headers: {
