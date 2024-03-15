@@ -38,8 +38,7 @@ const options = {
     },
     servers: [
       {
-        // url: "http://localhost:8080",
-        url: "https://job-portal-unjk.onrender.com"
+        url: "http://localhost:8080",
       },
     ],
   },
